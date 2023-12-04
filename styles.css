@@ -23,7 +23,7 @@ h1 {
 
 form {
   width: 80%;
-  height: 90%;
+  height: 80%;
   /* border: 2px red solid; */
   display: flex;
   flex-direction: column;
