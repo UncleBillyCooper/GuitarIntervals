@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100dvw;
+  height: 100dvh;
+  /* border: 2px black solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 70px;
+  color: blue;
+  text-decoration: underline blueviolet dotted;
+}
+
+form {
+  width: 80%;
+  height: 90%;
+  /* border: 2px red solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form h3 {
+  color: red;
+  font-size: 40px;
+}
+
+/* form div {
+  border: 2px green solid;
+  height: 30%;
+  width: 100%;
+} */
+
+.step,
+.guitarString,
+.interval {
+  /* border: 2px yellow solid; */
+  height: 30%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.stepNum,
+.stringNum,
+.currentInterval {
+  /* color: red; */
+  font-size: 50px;
+  /* border: 2px black solid; */
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: lightgray;
+  box-shadow: 1px 1px 16px 3px rgba(34, 60, 80, 0.2) inset;
+}
+
+.btn {
+  height: 50px;
+  width: 90%;
+  font-size: 30px;
+  color: blue;
+  border-radius: 20px;
+}
